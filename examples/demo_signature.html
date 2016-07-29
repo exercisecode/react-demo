@@ -20,8 +20,8 @@
 		<div id="signature_form">
 			
 			<div>
-				<label>输入数据</label>
-				<input type="text" id="info" />
+				<label>输入数据</label><br/>
+				<textarea type="text" id="info" rows="6" cols="100"></textarea>
 			</div>	
 			<br/><br/>
 			<div>
@@ -53,6 +53,7 @@
 
     		// alert("开始测试");
 
+    		//var info = $("#info").val().replace(/\n/g, '<br/>');
     		var info = $("#info").val();
     		var timeStamp = "20160729105933000";
     		var clientName = "restClient";
